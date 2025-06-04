@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Shop - Online Store</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #444;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      display: block;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      background-color: white;
+      margin-bottom: 20px;
+      padding: 20px;
+      border-radius: 6px;
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+    }
+
+    .product-image {
+      width: 250px;
+      height: auto;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .font-demo {
+      font-family: Georgia, serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Shop</h1>
+    <p><mark>Welcome to our online store!</mark></p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="products.html">Products</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://www.amazon.in" target="_blank">Amazon</a>
+  </nav>
+
+  <main>
+    <section>
+      <h2>Our Product</h2>
+      <center>
+      <img src="C:\Users\Anisha\Downloads\hrk.jpg" alt="Product Image" class="product-image">
+      <p><b>Price:</b> <del>₹1500</del> <mark>₹999</mark></p>
+      <p><i>Offer for limited time</i></p>
+      </center>
+    </section>
+
+    <section>
+      <h2>Categories (Lists)</h2>
+
+      <h3>Unordered List</h3>
+      <ul>
+        <li>Men</li>
+        <li>Women</li>
+        <li>Kids</li>
+        <li>Accessories</li>
+      </ul>
+
+      <h3>Ordered List - Best Products</h3>
+      <ol>
+        <li>Shirts</li>
+        <li>Pants</li>
+        <li>Shoes</li>
+      </ol>
+
+      <h3>Description List - Help</h3>
+      <dl>
+        <dt>Chat</dt>
+        <dd>Open from 10am to 6pm</dd>
+        <dt>Email</dt>
+        <dd>support@myshop.com</dd>
+        <dt>Phone</dt>
+        <dd>1800-123-456</dd>
+      </dl>
+    </section>
+
+    <section>
+      <h2>Links</h2>
+      <p>Visit our <a href="products.html">Products Page</a> (Relative Link).</p>
+      <p>Buy more from <a href="https://www.flipkart.com" target="_blank">Flipkart</a> (Absolute Link).</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Shop. All rights reserved.</p>
+  </footer>
+</body>
+</html>
